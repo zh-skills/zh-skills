@@ -14,11 +14,13 @@ I build AI agent skills for Chinese and English users — reusable capabilities 
 |-------|-------------|
 | `read-webpage` | Fetch plain text from any webpage. Supports English, 简体中文, 繁體中文 |
 | `read-webpage-advanced` | Fetch JS-rendered pages using Playwright headless browser |
+| `speak-cantonese` | Convert Cantonese text to speech. Online (edge-tts) or local (macOS/Windows) mode. Includes tongue-twister practice files |
 
 ### Install
 ```bash
 npx skills add zh-skills/skills@read-webpage
 npx skills add zh-skills/skills@read-webpage-advanced
+npx skills add zh-skills/skills@speak-cantonese
 ```
 
 ### Use (in your AI chat)
@@ -26,6 +28,8 @@ npx skills add zh-skills/skills@read-webpage-advanced
 use skill read-webpage https://en.wikipedia.org/wiki/Artificial_intelligence
 用技能读网页 https://zh.wikipedia.org/wiki/人工智能?variant=zh-hans
 用技能讀網頁 https://zh.wikipedia.org/wiki/人工智能?variant=zh-hant
+use skill speak-cantonese 各個國家有各個國家嘅國歌
+use skill speak-cantonese file skills/speak-cantonese/assets/cantonese-challenge-1.txt
 ```
 
 ---
