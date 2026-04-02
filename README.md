@@ -1,5 +1,7 @@
 # 你好 👋 Hi, I'm zh-skills
 
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=zh-skills.zh-skills)
+
 I build AI agent skills for Chinese and English users — reusable capabilities that extend AI assistants with practical tools.
 
 > 我为中英文用户开发 AI 技能，让 AI 助手更实用。
