@@ -2,27 +2,25 @@
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=zh-skills.zh-skills)
 
-I build AI agent skills for Chinese and English users — reusable capabilities that extend AI assistants with practical tools.
+I build AI agent skills and chat apps for Chinese and English users.
 
-> 我为中英文用户开发 AI 技能，让 AI 助手更实用。
+> 我为中英文用户开发 AI 技能和聊天应用。
 
 ---
 
-## 🛠️ Skills Collection
+## 🛠️ Skills — [zh-skills/skills](https://github.com/zh-skills/skills)
 
-📦 [zh-skills/skills](https://github.com/zh-skills/skills) — AI agent skills you can install with one command
+AI agent skills you can install with one command and use with natural language.
 
 | Skill | What it does |
 |-------|-------------|
 | `read-webpage` | Fetch plain text from any webpage. Supports English, 简体中文, 繁體中文 |
-| `read-webpage-advanced` | Fetch JS-rendered pages using Playwright headless browser |
-| `speak-cantonese` | Convert Cantonese text to speech. Online (edge-tts) or local (macOS/Windows) mode. Includes tongue-twister practice files |
+| `read-dynamic-webpage` | Fetch JS-rendered pages using Playwright headless browser |
 
 ### Install
 ```bash
 npx skills add zh-skills/skills@read-webpage
-npx skills add zh-skills/skills@read-webpage-advanced
-npx skills add zh-skills/skills@speak-cantonese
+npx skills add zh-skills/skills@read-dynamic-webpage
 ```
 
 ### Use (in your AI chat)
@@ -30,12 +28,31 @@ npx skills add zh-skills/skills@speak-cantonese
 use skill read-webpage https://en.wikipedia.org/wiki/Artificial_intelligence
 用技能读网页 https://zh.wikipedia.org/wiki/人工智能?variant=zh-hans
 用技能讀網頁 https://zh.wikipedia.org/wiki/人工智能?variant=zh-hant
-use skill speak-cantonese 各個國家有各個國家嘅國歌
-use skill speak-cantonese file skills/speak-cantonese/assets/cantonese-challenge-1.txt
+use skill read-dynamic-webpage https://quotes.toscrape.com/js/
+用技能讀動態網頁 https://quotes.toscrape.com/js/
+```
+
+---
+
+## 💬 Chat Apps
+
+Ready-to-run local AI chat apps with built-in skills. Clone and run — no cloud API needed.
+
+| Repo | Skills | Description |
+|------|--------|-------------|
+| [chat-with-skills-speak-cantonese](https://github.com/zh-skills/chat-with-skills-speak-cantonese) | speak-cantonese, speak-cantonese-save, speak-cantonese-file | Cantonese TTS — speak sentences and text files aloud |
+| [chat-with-skills-transcribe-cantonese](https://github.com/zh-skills/chat-with-skills-transcribe-cantonese) | transcribe-cantonese | Transcribe Cantonese audio files to text using Whisper |
+
+### Quick Start
+```bash
+git clone https://github.com/zh-skills/chat-with-skills-speak-cantonese
+cd chat-with-skills-speak-cantonese
+pip3 install -r requirements.txt
+python3 cantonese01_server.py
 ```
 
 ---
 
 ## 🌐 Languages
 
-Skills and documentation are available in English, Simplified Chinese (简体中文), and Traditional Chinese (繁體中文).
+Skills and documentation available in English, 简体中文, and 繁體中文.
