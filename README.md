@@ -41,6 +41,7 @@ Ready-to-run local AI chat apps with built-in skills. Clone and run — no cloud
 | Repo | Skills | Description |
 |------|--------|-------------|
 | [chat-with-skills-speak-cantonese](https://github.com/zh-skills/chat-with-skills-speak-cantonese) | speak-cantonese, speak-cantonese-save, speak-cantonese-file | Cantonese TTS — speak sentences and text files aloud |
+| [chat-with-skills-speak-english](https://github.com/zh-skills/chat-with-skills-speak-english) | speak-english, speak-english-save, speak-english-file | English TTS — speak sentences and text files aloud |
 | [chat-with-skills-transcribe-cantonese](https://github.com/zh-skills/chat-with-skills-transcribe-cantonese) | transcribe-cantonese | Transcribe Cantonese audio files to text using Whisper |
 
 ---
