@@ -17,6 +17,12 @@ AI agent skills you can install with one command and use with natural language.
 | `read-webpage` | Fetch plain text from any webpage. Supports English, 简体中文, 繁體中文 |
 | `read-dynamic-webpage` | Fetch JS-rendered pages using Playwright headless browser |
 
+### Other Skills
+
+| Repo | What it does |
+|------|-------------|
+| [pdf-watermark](https://github.com/zh-skills/pdf-watermark) | Add a diagonal text watermark to every page of a PDF file |
+
 ### Install
 ```bash
 npx skills add zh-skills/skills@read-webpage
