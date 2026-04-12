@@ -22,6 +22,7 @@ AI agent skills you can install with one command and use with natural language.
 | Repo | What it does |
 |------|-------------|
 | [pdf-watermark](https://github.com/zh-skills/pdf-watermark) | Add a diagonal text watermark to every page of a PDF file |
+| [download-video](https://github.com/zh-skills/download-video) | Download a video from any URL (YouTube, XHS, Bilibili, etc.) using yt-dlp |
 
 ### Install
 ```bash
